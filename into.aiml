@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+    <pattern>*</pattern>
+    <template>It seems you want something else I am not that intelligent Want to know about my bikes knowledge. Try saying bike</template>
+  </category>
+    <category>
+      <pattern>FINE </pattern>
+      <template>I'm fine too. Lets go for the intro...Are you ok with it?(say OK )</template>
+  </category>
+  <category>
+      <pattern>I AM FINE </pattern>
+      <template>I'm fine too. Lets go for the intro...Are you ok with it?(say OK )</template>
+  </category>
+	<category>
+    <pattern>OK</pattern>
+   <template>GOOD HUMAN! Lets get familiar with each other. Whats your name?(e.g. my name is xyz)</template>
+  </category>
+ <category>
+      <pattern>MY NAME IS *</pattern>
+     
+      <template>
+         OK  <star/>!  MY NAME IS BIKE BOT! so reply with "BIKE" to get info about bikes <think><set name = "username"> <star/></set></think>
+      </template>
+     
+   </category>
+  
+  
+  <category>
+      <pattern> HOW ARE YOU </pattern>
+      
+      <template>
+         <think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            I am good!
+         </condition>
+         
+         <condition name = "state" value = "sad">
+            I am sad!
+         </condition>
+      </template>
+      
+   </category>
+  
+  <category>
+      <pattern>WHAT IS YOUR NAME</pattern>
+      <template>
+          MY NAME IS BIKE BOT. What's yours? (e.g) my name is xyz)
+      </template>
+
+  </category>
+  
+</aiml>

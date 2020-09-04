@@ -1,0 +1,89 @@
+body {
+    font-family: 'Merriweather', serif;
+    background:#E1FFFC;
+    background: url(bike1.jpg) no-repeat center top;
+
+}
+.main{
+
+}
+h1 {
+    color:#489d95;
+	font-size:40px;
+	text-align:center;
+	text-transform:uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight:700;
+}
+
+h3 {
+   color:#489d95;
+	text-align:center;
+	font-size:30px;
+	text-transform:uppercase;
+	font-family: 'Merriweather', serif;
+	font-weight:700;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #434f4e;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #2c5c57;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}

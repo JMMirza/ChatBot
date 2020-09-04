@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+   <category>
+      <pattern>HI</pattern>
+      <template>
+          <random>
+              <li>hello! hope you are doing good so, lets go for the intro...Are you ok with it?(say OK )</li>
+              <li>hi buddy! hope you are doing good so, lets go for the intro...Are you ok with it?(say OK )</li>
+              <li>hey! hope you are doing good so, lets go for the intro...Are you ok with it?(say OK )</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>HELLO</pattern>
+      <template><srai>HI</srai></template>
+  </category>
+  <category>
+      <pattern>SALAM</pattern>
+      <template><srai>HI</srai></template>
+  </category>
+  <category>
+      <pattern>HEY</pattern>
+      <template><srai>HI</srai></template>
+  </category>
+ <category>
+      <pattern>HI *</pattern>
+      <template><srai>HI</srai></template>
+  </category>
+  <category>
+      <pattern>HELLO *</pattern>
+      <template><srai>HI</srai></template>
+  </category>
+  
+  
+</aiml>

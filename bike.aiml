@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+    <pattern>*</pattern>
+    <template>It seems you want something else I am not that intelligent Want to know about my bikes knowledge. Try saying bike.</template>
+  </category>
+	<category>
+      <pattern>BIKE</pattern>
+      <template>NICE IT SEEMS YOUR TASTE IS GOOD. Now tell me do you own bike(reply with yes or no)</template>
+   </category>
+   <category>
+      <pattern>YES</pattern>
+     <template>WHICH MODEL(i have xyz)</template>
+   </category>
+    <category>
+      <pattern>NO</pattern>
+      <template>would you want to buy</template>
+   </category>
+   <category>
+      <pattern>yes i want to buy a bike from Lahore</pattern>
+      <template>oh so you live in lahore? </template>
+   </category>
+   <category>
+   <pattern>yes i live in lahore</pattern>
+   <template>so which bike company you like?</template>
+   </category>
+   <category>
+   <pattern>i like yamaha</pattern>
+   <template>so now tell me which model you like?</template>
+   </category>
+   <category>
+   <pattern> i like yamaha ybz</pattern>
+   <template>great choice, want to know about its price?</template>
+   </category>
+   <category>
+   <pattern>no</pattern>
+   <template>GOOD anything more you want to talk. </template>
+   </category>
+   	<category>
+      <pattern>I HAVE *</pattern>
+      <template>GOOD anything more you want to talk<think><set name="bike"><star/></set></think></template>
+   </category>
+
+   <category>
+      <pattern>yes i do</pattern>
+      <that>would you want to buy</that>
+      <template>Thats nice so anything more you want from me</template>
+   </category>
+   
+   <category>
+      <pattern> NOPE </pattern>
+      <template>Want to know about my area of interest(ask: what is it)</template>
+   </category>
+  <category>
+      <pattern>what is it</pattern>
+      <template> AS I TOLD YOU THAT I LIKE TO TALK ABOUT BIKES WHAT's YOUR INTEREST</template>
+   </category>
+
+   <category>
+      <pattern>I WOULD LIKE TO TALK ABOUT *</pattern>
+      <that>GOOD anything more you want to talk</that>
+      <template> OH GREAT! IT WOULD BE GREART <think><set name = "idea"> <star/></set></think>(TALK TO ME ABOUT AREA OF INTEREST)</template>
+   </category>
+
+   <category>
+      <pattern>I LIKE *</pattern>
+      <template> AWW CUTE! I LIKE <set name = "interest"> <star/>! </set> TOO BUT ITS BAD THAT YOU DON'T LIKE BIKE and sorry i cant help you more</template>
+   </category>
+ </aiml>
